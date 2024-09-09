@@ -2,6 +2,7 @@ import Navigation from './components/Navigation'
 import { Routes, Route } from 'react-router-dom'
 import { Home, Profile, NotFound, Shopping, Products, Login, Detail, Favorites, Register } from './views'
 import ProtectedRoute from './ProtectedRoute'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
         />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   )
 }
