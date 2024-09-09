@@ -12,7 +12,7 @@ const Navigation = () => {
 
   return (
     <>
-      <Navbar expand='lg' bg='dark' data-bs-theme='dark'>
+      <Navbar className='fixed-top' expand='lg' bg='dark' data-bs-theme='dark'>
         <Container>
           <NavLink className={handleMenu} to='/'>
             <Navbar.Brand>

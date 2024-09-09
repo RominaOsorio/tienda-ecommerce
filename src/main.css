@@ -12,3 +12,11 @@ html, body {
     margin-top: auto;
     width: 100%;
   }
+
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Asegúrate de que esté encima de otros elementos */
+  }
