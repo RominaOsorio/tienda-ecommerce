@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap'
 import FormPost from '../components/FormPost'
 import Articles from '../components/Articles'
 
-const urlBaseServer = 'http://localhost:3000'
+import { urlBaseServer } from '../config/config'
 
 const Profile = () => {
   const { isAuthenticated, logout } = useContext(AuthContext)
